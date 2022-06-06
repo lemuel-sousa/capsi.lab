@@ -1,0 +1,164 @@
+/* Geral ------------------------------------------ */
+:root {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    --text-color: hsla(28, 51%, 85%, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #344E41 16.62%, #588157 85.61%);
+}
+
+/* Header -----------------------------------------*/
+
+header {
+    border-bottom: 0.4px solid rgba(255, 242, 231, 0.5);
+}
+
+.header-conteiner{
+    padding: 1.4rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.logo-capsi, .logo-ifpa {
+    height: 5.8rem;
+}
+
+.menu-header {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.menu-item {
+    font-family: Sarala, sans-serif;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+/* Main ----------------------------------------- */
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.capsilab{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;}
+.title {
+    font-family: Righteous, cursive;
+    font-weight: 400;
+    font-size: 5.4rem;
+    color: var(--text-color);
+    margin-bottom: 3rem;
+}
+
+.paragraph {
+    font-family: Sarala, sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.button-about {
+    width: 15.5rem;
+    height: 5.7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    background-color: hsl(115, 28%, 42%);
+
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.button-about:hover {
+    background-color: rgb(116, 179, 110);
+}
+
+.globo-ilustration {
+    height: 50rem;
+
+}
+
+.conteiner-features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.3rem;
+}
+
+.conteiner-features .title {
+    margin-inline: auto;
+}
+
+.group-features {
+    display: flex;
+    justify-content: center;
+    gap: 18rem;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle-content {
+    font-family: Sarala, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.feature .paragraph {
+    width: 26rem;
+    text-align: center;
+}
+
+/* Footer ------------------------------------ */
+footer {
+    margin-top: 40rem;
+    border-top: 0.4px solid rgba(255, 242, 231, 0.5);
+}
+
+#footer-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-footer {
+    color: var(--text-color);
+    font-family: Righteous, cursive;
+    font-size: 5rem;
+    margin-left: -12rem;
+}
+
+.copyright-footer {
+    color: var(--text-color);
+    font-family: Righteous, cursive;
+    font-size: 1.2rem;
+}
