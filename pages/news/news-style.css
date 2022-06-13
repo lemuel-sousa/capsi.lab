@@ -1,0 +1,135 @@
+/* Geral ------------------------------------------ */
+:root {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  --text-color: hsla(28, 51%, 85%, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(68.15deg, #344e41 16.62%, #588157 85.61%);
+}
+
+/* Header -----------------------------------------*/
+
+header {
+  border-bottom: 0.4px solid rgba(255, 242, 231, 0.5);
+}
+
+.header-conteiner {
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-capsi,
+.logo-ifpa {
+  height: 5.8rem;
+}
+
+.menu-header {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.menu-item {
+  font-family: Sarala, sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+/* Main ----------------------------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title {
+  margin-inline: auto;
+  margin-top: 8rem;
+  margin-bottom: 7rem;
+  font-family: "Righteous", cursive;
+  color: #ffffff;
+  font-size: 3.8rem;
+}
+
+#news-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
+#news-main .text {
+  width: 40rem;
+}
+
+#tumb-news-main {
+  width: 54rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sec-news-minis {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+  margin-top: 12rem;
+}
+
+.mini-news {
+  width: 32rem;
+}
+
+.tumb-mini-news {
+  width: 32rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.title-news {
+  font-family: Sarala;
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+.summary-news {
+  font-family: sarala;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* Footer ------------------------------------ */
+footer {
+  margin-top: 40rem;
+  border-top: 0.4px solid rgba(255, 242, 231, 0.5);
+}
+
+#footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title-footer {
+  color: var(--text-color);
+  font-family: Righteous, cursive;
+  font-size: 5rem;
+  margin-left: -12rem;
+}
+
+.copyright-footer {
+  color: var(--text-color);
+  font-family: Righteous, cursive;
+  font-size: 1.2rem;
+}
